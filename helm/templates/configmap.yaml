@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  namespace: demonstrator
+  name: demonstrator-configmap
+data:
+  value1: "Hello World"
+  value2: "Some value 2"
